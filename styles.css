@@ -1,0 +1,88 @@
+*, *:after, *:before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    background: linear-gradient(to bottom right, #0276ac, #011f4b);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.age-calc {
+    width: 90%;
+    max-width: 500px;
+    padding: 20px;
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    color: #333;
+}
+
+.age-calc h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #0276ac;
+}
+
+.age-calc label {
+    display: block;
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+.age-calc input {
+    width: 100%;
+    max-width: 300px;
+    padding: 12px;
+    border: 2px solid #0276ac;
+    border-radius: 8px;
+    font-size: 16px;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+.age-calc input:focus {
+    border-color: #011f4b;
+}
+
+.age-calc button {
+    padding: 12px 20px;
+    width: 100%;
+    max-width: 200px;
+    margin: 10px auto;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    background: #0276ac;
+    color: #fff;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.age-calc button:hover {
+    background: #011f4b;
+}
+
+#disBlock {
+    margin: 20px auto;
+    padding: 15px;
+    background: #0276ac;
+    color: #fff;
+    border-radius: 8px;
+    font-size: 20px;
+    line-height: 1.5;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+#disBlock span {
+    font-weight: bold;
+    color: #fff;
+}
